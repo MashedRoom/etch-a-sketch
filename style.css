@@ -1,0 +1,51 @@
+html, body{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.leftright{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.rowContainer{
+    display: flex;
+}
+
+.grid{
+    padding: 15px;
+    border: 0.5px solid rgb(149, 140, 140);
+}
+
+.gridContainer{
+    width: 75%;
+}
+
+.sizeContainer{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridSize{
+    width: 10rem;
+    height: 10px;
+}
+
+.hovering{
+    background-color: red;
+}
